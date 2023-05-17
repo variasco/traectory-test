@@ -18,22 +18,22 @@ export const SortButtons = (props: SortButtonsProps) => {
   const onYearDesc = useCallback(() => {
     setCars((prev) => [...prev].sort((a, b) => b.year - a.year));
     setSelectedSort("yearDesc");
-  }, []);
+  }, [setCars]);
 
   const onYearAsc = useCallback(() => {
     setCars((prev) => [...prev].sort((a, b) => a.year - b.year));
     setSelectedSort("yearAsc");
-  }, []);
+  }, [setCars]);
 
   const onPriceDesc = useCallback(() => {
     setCars((prev) => [...prev].sort((a, b) => b.price - a.price));
     setSelectedSort("priceDesc");
-  }, []);
+  }, [setCars]);
 
   const onPriceAsc = useCallback(() => {
     setCars((prev) => [...prev].sort((a, b) => a.price - b.price));
     setSelectedSort("priceAsc");
-  }, []);
+  }, [setCars]);
 
   useEffect(() => {
     onYearDesc();
