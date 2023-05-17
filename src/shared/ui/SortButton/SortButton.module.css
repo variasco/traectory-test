@@ -1,0 +1,42 @@
+.root {
+  background: none;
+  outline: none;
+  border: 1px solid var(--white-border-color);
+  border-radius: 4px;
+  padding: 8px;
+  color: #99a0a3;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.root:hover {
+  border: 1px solid var(--dark-green-color);
+  color: var(--dark-green-color);
+}
+
+.buttonActive {
+  border: 1px solid var(--dark-green-color);
+  color: var(--dark-green-color);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.icon {
+  fill: var(--white-border-color);
+}
+
+.icon:hover {
+  fill: var(--dark-green-color);
+}
+
+.iconActive,
+.selected {
+  fill: var(--dark-green-color);
+}

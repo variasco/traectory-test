@@ -1,0 +1,40 @@
+:root {
+  --font-family-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  --font-size-s: 12px;
+  --font-line-s: 14px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+  --font-size-m: 16px;
+  --font-line-m: 19px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  --font-size-l: 24px;
+  --font-line-l: 28px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  --font-size-xl: 32px;
+  --font-line-xl: 38px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  --header-height: 92px;
+
+  --primary-color: #424242;
+  --secondary-color: #878787;
+  --error-color: #eb1717;
+
+  --dark-green-color: #41522e;
+  --white-brown-color: #be8022;
+
+  --gold-star-color: #cdbc1e;
+  --grey-star-color: #6c6845;
+  --red-heart-color: #e55858;
+  --grey-heart-color: #ebebeb;
+  --border-heart-color: #c4c4c4;
+  --white-border-color: #e5e5e5;
+  --grey-border-color: #c9cacc;
+
+  --bg-primary-color: #f4f4f4;
+  --bg-secondary-color: #ffffff;
+}

@@ -1,0 +1,39 @@
+.primary {
+  padding: 10px 30px;
+  color: #fff;
+  background: linear-gradient(
+    104.34deg,
+    var(--dark-green-color) -15.34%,
+    var(--white-brown-color) 145.95%
+  );
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.primary:hover {
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(104.34deg, var(--dark-green-color) -15.34%, var(--white-brown-color) 145.95%);
+}
+
+.primary:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(104.34deg, var(--dark-green-color) -15.34%, var(--white-brown-color) 145.95%);
+}
+
+.clear {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 6px;
+}
+
+.clear:hover {
+  opacity: 0.8;
+}
